@@ -4,7 +4,7 @@
 # 288 "<built-in>" 3
 # 1 "<command line>" 1
 # 1 "<built-in>" 2
-# 1 "/opt/microchip/xc8/v2.05/pic/include/language_support.h" 1 3
+# 1 "/Applications/microchip/xc8/v2.05/pic/include/language_support.h" 1 3
 # 2 "<built-in>" 2
 # 1 "main.c" 2
 # 1 "./voltimeter.h" 1
@@ -16,42 +16,42 @@
 
 
 
-# 1 "/opt/microchip/xc8/v2.05/pic/include/xc.h" 1 3
-# 18 "/opt/microchip/xc8/v2.05/pic/include/xc.h" 3
+# 1 "/Applications/microchip/xc8/v2.05/pic/include/xc.h" 1 3
+# 18 "/Applications/microchip/xc8/v2.05/pic/include/xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
 
 extern double __fpnormalize(double);
 
 
 
-# 1 "/opt/microchip/xc8/v2.05/pic/include/c99/xc8debug.h" 1 3
+# 1 "/Applications/microchip/xc8/v2.05/pic/include/c99/xc8debug.h" 1 3
 
 
 
-# 1 "/opt/microchip/xc8/v2.05/pic/include/c99/stdlib.h" 1 3
+# 1 "/Applications/microchip/xc8/v2.05/pic/include/c99/stdlib.h" 1 3
 
 
 
-# 1 "/opt/microchip/xc8/v2.05/pic/include/c99/musl_xc8.h" 1 3
-# 5 "/opt/microchip/xc8/v2.05/pic/include/c99/stdlib.h" 2 3
+# 1 "/Applications/microchip/xc8/v2.05/pic/include/c99/musl_xc8.h" 1 3
+# 5 "/Applications/microchip/xc8/v2.05/pic/include/c99/stdlib.h" 2 3
 
 
 
 
 
-# 1 "/opt/microchip/xc8/v2.05/pic/include/c99/features.h" 1 3
-# 11 "/opt/microchip/xc8/v2.05/pic/include/c99/stdlib.h" 2 3
-# 21 "/opt/microchip/xc8/v2.05/pic/include/c99/stdlib.h" 3
-# 1 "/opt/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 1 3
-# 22 "/opt/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
+# 1 "/Applications/microchip/xc8/v2.05/pic/include/c99/features.h" 1 3
+# 11 "/Applications/microchip/xc8/v2.05/pic/include/c99/stdlib.h" 2 3
+# 21 "/Applications/microchip/xc8/v2.05/pic/include/c99/stdlib.h" 3
+# 1 "/Applications/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 1 3
+# 22 "/Applications/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
 typedef long int wchar_t;
-# 127 "/opt/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
+# 127 "/Applications/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
 typedef unsigned size_t;
-# 176 "/opt/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
+# 176 "/Applications/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
 typedef __int24 int24_t;
-# 212 "/opt/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
+# 212 "/Applications/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
 typedef __uint24 uint24_t;
-# 22 "/opt/microchip/xc8/v2.05/pic/include/c99/stdlib.h" 2 3
+# 22 "/Applications/microchip/xc8/v2.05/pic/include/c99/stdlib.h" 2 3
 
 int atoi (const char *);
 long atol (const char *);
@@ -73,12 +73,12 @@ unsigned long long strtoull (const char *restrict, char **restrict, int);
 
 int rand (void);
 void srand (unsigned);
-# 52 "/opt/microchip/xc8/v2.05/pic/include/c99/stdlib.h" 3
+# 52 "/Applications/microchip/xc8/v2.05/pic/include/c99/stdlib.h" 3
           void abort (void);
 int atexit (void (*) (void));
           void exit (int);
           void _Exit (int);
-# 65 "/opt/microchip/xc8/v2.05/pic/include/c99/stdlib.h" 3
+# 65 "/Applications/microchip/xc8/v2.05/pic/include/c99/stdlib.h" 3
 void *bsearch (const void *, const void *, size_t, size_t, int (*)(const void *, const void *));
 
 
@@ -104,9 +104,9 @@ typedef struct { unsigned int quot, rem; } udiv_t;
 typedef struct { unsigned long quot, rem; } uldiv_t;
 udiv_t udiv (unsigned int, unsigned int);
 uldiv_t uldiv (unsigned long, unsigned long);
-# 104 "/opt/microchip/xc8/v2.05/pic/include/c99/stdlib.h" 3
+# 104 "/Applications/microchip/xc8/v2.05/pic/include/c99/stdlib.h" 3
 size_t __ctype_get_mb_cur_max(void);
-# 5 "/opt/microchip/xc8/v2.05/pic/include/c99/xc8debug.h" 2 3
+# 5 "/Applications/microchip/xc8/v2.05/pic/include/c99/xc8debug.h" 2 3
 
 
 
@@ -116,7 +116,7 @@ size_t __ctype_get_mb_cur_max(void);
 
 #pragma intrinsic(__builtin_software_breakpoint)
 extern void __builtin_software_breakpoint(void);
-# 24 "/opt/microchip/xc8/v2.05/pic/include/xc.h" 2 3
+# 24 "/Applications/microchip/xc8/v2.05/pic/include/xc.h" 2 3
 
 
 
@@ -125,26 +125,26 @@ extern void __builtin_software_breakpoint(void);
 
 
 
-# 1 "/opt/microchip/xc8/v2.05/pic/include/pic18.h" 1 3
+# 1 "/Applications/microchip/xc8/v2.05/pic/include/pic18.h" 1 3
 
 
 
 
-# 1 "/opt/microchip/xc8/v2.05/pic/include/htc.h" 1 3
+# 1 "/Applications/microchip/xc8/v2.05/pic/include/htc.h" 1 3
 
 
 
-# 1 "/opt/microchip/xc8/v2.05/pic/include/xc.h" 1 3
-# 5 "/opt/microchip/xc8/v2.05/pic/include/htc.h" 2 3
-# 6 "/opt/microchip/xc8/v2.05/pic/include/pic18.h" 2 3
+# 1 "/Applications/microchip/xc8/v2.05/pic/include/xc.h" 1 3
+# 5 "/Applications/microchip/xc8/v2.05/pic/include/htc.h" 2 3
+# 6 "/Applications/microchip/xc8/v2.05/pic/include/pic18.h" 2 3
 
 
-# 1 "/opt/microchip/xc8/v2.05/pic/include/pic18_chip_select.h" 1 3
-# 629 "/opt/microchip/xc8/v2.05/pic/include/pic18_chip_select.h" 3
-# 1 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 1 3
-# 44 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
-# 1 "/opt/microchip/xc8/v2.05/pic/include/__at.h" 1 3
-# 45 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 2 3
+# 1 "/Applications/microchip/xc8/v2.05/pic/include/pic18_chip_select.h" 1 3
+# 629 "/Applications/microchip/xc8/v2.05/pic/include/pic18_chip_select.h" 3
+# 1 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 1 3
+# 44 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 1 "/Applications/microchip/xc8/v2.05/pic/include/__at.h" 1 3
+# 45 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 2 3
 
 
 
@@ -163,7 +163,7 @@ typedef union {
     };
 } SPPDATAbits_t;
 extern volatile SPPDATAbits_t SPPDATAbits __attribute__((address(0xF62)));
-# 72 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 72 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char SPPCFG __attribute__((address(0xF63)));
 
 __asm("SPPCFG equ 0F63h");
@@ -187,7 +187,7 @@ typedef union {
     };
 } SPPCFGbits_t;
 extern volatile SPPCFGbits_t SPPCFGbits __attribute__((address(0xF63)));
-# 149 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 149 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char SPPEPS __attribute__((address(0xF64)));
 
 __asm("SPPEPS equ 0F64h");
@@ -213,7 +213,7 @@ typedef union {
     };
 } SPPEPSbits_t;
 extern volatile SPPEPSbits_t SPPEPSbits __attribute__((address(0xF64)));
-# 223 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 223 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char SPPCON __attribute__((address(0xF65)));
 
 __asm("SPPCON equ 0F65h");
@@ -226,7 +226,7 @@ typedef union {
     };
 } SPPCONbits_t;
 extern volatile SPPCONbits_t SPPCONbits __attribute__((address(0xF65)));
-# 249 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 249 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned short UFRM __attribute__((address(0xF66)));
 
 __asm("UFRM equ 0F66h");
@@ -258,7 +258,7 @@ typedef union {
     };
 } UFRMLbits_t;
 extern volatile UFRMLbits_t UFRMLbits __attribute__((address(0xF66)));
-# 334 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 334 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UFRMH __attribute__((address(0xF67)));
 
 __asm("UFRMH equ 0F67h");
@@ -275,7 +275,7 @@ typedef union {
     };
 } UFRMHbits_t;
 extern volatile UFRMHbits_t UFRMHbits __attribute__((address(0xF67)));
-# 374 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 374 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UIR __attribute__((address(0xF68)));
 
 __asm("UIR equ 0F68h");
@@ -293,7 +293,7 @@ typedef union {
     };
 } UIRbits_t;
 extern volatile UIRbits_t UIRbits __attribute__((address(0xF68)));
-# 430 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 430 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UIE __attribute__((address(0xF69)));
 
 __asm("UIE equ 0F69h");
@@ -311,7 +311,7 @@ typedef union {
     };
 } UIEbits_t;
 extern volatile UIEbits_t UIEbits __attribute__((address(0xF69)));
-# 486 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 486 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UEIR __attribute__((address(0xF6A)));
 
 __asm("UEIR equ 0F6Ah");
@@ -329,7 +329,7 @@ typedef union {
     };
 } UEIRbits_t;
 extern volatile UEIRbits_t UEIRbits __attribute__((address(0xF6A)));
-# 537 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 537 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UEIE __attribute__((address(0xF6B)));
 
 __asm("UEIE equ 0F6Bh");
@@ -347,7 +347,7 @@ typedef union {
     };
 } UEIEbits_t;
 extern volatile UEIEbits_t UEIEbits __attribute__((address(0xF6B)));
-# 588 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 588 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char USTAT __attribute__((address(0xF6C)));
 
 __asm("USTAT equ 0F6Ch");
@@ -369,7 +369,7 @@ typedef union {
     };
 } USTATbits_t;
 extern volatile USTATbits_t USTATbits __attribute__((address(0xF6C)));
-# 648 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 648 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UCON __attribute__((address(0xF6D)));
 
 __asm("UCON equ 0F6Dh");
@@ -387,7 +387,7 @@ typedef union {
     };
 } UCONbits_t;
 extern volatile UCONbits_t UCONbits __attribute__((address(0xF6D)));
-# 699 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 699 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UADDR __attribute__((address(0xF6E)));
 
 __asm("UADDR equ 0F6Eh");
@@ -408,7 +408,7 @@ typedef union {
     };
 } UADDRbits_t;
 extern volatile UADDRbits_t UADDRbits __attribute__((address(0xF6E)));
-# 763 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 763 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UCFG __attribute__((address(0xF6F)));
 
 __asm("UCFG equ 0F6Fh");
@@ -434,7 +434,7 @@ typedef union {
     };
 } UCFGbits_t;
 extern volatile UCFGbits_t UCFGbits __attribute__((address(0xF6F)));
-# 842 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 842 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UEP0 __attribute__((address(0xF70)));
 
 __asm("UEP0 equ 0F70h");
@@ -464,7 +464,7 @@ typedef union {
     };
 } UEP0bits_t;
 extern volatile UEP0bits_t UEP0bits __attribute__((address(0xF70)));
-# 950 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 950 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UEP1 __attribute__((address(0xF71)));
 
 __asm("UEP1 equ 0F71h");
@@ -494,7 +494,7 @@ typedef union {
     };
 } UEP1bits_t;
 extern volatile UEP1bits_t UEP1bits __attribute__((address(0xF71)));
-# 1058 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 1058 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UEP2 __attribute__((address(0xF72)));
 
 __asm("UEP2 equ 0F72h");
@@ -524,7 +524,7 @@ typedef union {
     };
 } UEP2bits_t;
 extern volatile UEP2bits_t UEP2bits __attribute__((address(0xF72)));
-# 1166 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 1166 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UEP3 __attribute__((address(0xF73)));
 
 __asm("UEP3 equ 0F73h");
@@ -554,7 +554,7 @@ typedef union {
     };
 } UEP3bits_t;
 extern volatile UEP3bits_t UEP3bits __attribute__((address(0xF73)));
-# 1274 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 1274 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UEP4 __attribute__((address(0xF74)));
 
 __asm("UEP4 equ 0F74h");
@@ -584,7 +584,7 @@ typedef union {
     };
 } UEP4bits_t;
 extern volatile UEP4bits_t UEP4bits __attribute__((address(0xF74)));
-# 1382 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 1382 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UEP5 __attribute__((address(0xF75)));
 
 __asm("UEP5 equ 0F75h");
@@ -614,7 +614,7 @@ typedef union {
     };
 } UEP5bits_t;
 extern volatile UEP5bits_t UEP5bits __attribute__((address(0xF75)));
-# 1490 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 1490 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UEP6 __attribute__((address(0xF76)));
 
 __asm("UEP6 equ 0F76h");
@@ -644,7 +644,7 @@ typedef union {
     };
 } UEP6bits_t;
 extern volatile UEP6bits_t UEP6bits __attribute__((address(0xF76)));
-# 1598 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 1598 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UEP7 __attribute__((address(0xF77)));
 
 __asm("UEP7 equ 0F77h");
@@ -674,7 +674,7 @@ typedef union {
     };
 } UEP7bits_t;
 extern volatile UEP7bits_t UEP7bits __attribute__((address(0xF77)));
-# 1706 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 1706 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UEP8 __attribute__((address(0xF78)));
 
 __asm("UEP8 equ 0F78h");
@@ -697,7 +697,7 @@ typedef union {
     };
 } UEP8bits_t;
 extern volatile UEP8bits_t UEP8bits __attribute__((address(0xF78)));
-# 1782 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 1782 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UEP9 __attribute__((address(0xF79)));
 
 __asm("UEP9 equ 0F79h");
@@ -720,7 +720,7 @@ typedef union {
     };
 } UEP9bits_t;
 extern volatile UEP9bits_t UEP9bits __attribute__((address(0xF79)));
-# 1858 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 1858 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UEP10 __attribute__((address(0xF7A)));
 
 __asm("UEP10 equ 0F7Ah");
@@ -743,7 +743,7 @@ typedef union {
     };
 } UEP10bits_t;
 extern volatile UEP10bits_t UEP10bits __attribute__((address(0xF7A)));
-# 1934 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 1934 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UEP11 __attribute__((address(0xF7B)));
 
 __asm("UEP11 equ 0F7Bh");
@@ -766,7 +766,7 @@ typedef union {
     };
 } UEP11bits_t;
 extern volatile UEP11bits_t UEP11bits __attribute__((address(0xF7B)));
-# 2010 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 2010 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UEP12 __attribute__((address(0xF7C)));
 
 __asm("UEP12 equ 0F7Ch");
@@ -789,7 +789,7 @@ typedef union {
     };
 } UEP12bits_t;
 extern volatile UEP12bits_t UEP12bits __attribute__((address(0xF7C)));
-# 2086 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 2086 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UEP13 __attribute__((address(0xF7D)));
 
 __asm("UEP13 equ 0F7Dh");
@@ -812,7 +812,7 @@ typedef union {
     };
 } UEP13bits_t;
 extern volatile UEP13bits_t UEP13bits __attribute__((address(0xF7D)));
-# 2162 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 2162 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UEP14 __attribute__((address(0xF7E)));
 
 __asm("UEP14 equ 0F7Eh");
@@ -835,7 +835,7 @@ typedef union {
     };
 } UEP14bits_t;
 extern volatile UEP14bits_t UEP14bits __attribute__((address(0xF7E)));
-# 2238 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 2238 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char UEP15 __attribute__((address(0xF7F)));
 
 __asm("UEP15 equ 0F7Fh");
@@ -858,7 +858,7 @@ typedef union {
     };
 } UEP15bits_t;
 extern volatile UEP15bits_t UEP15bits __attribute__((address(0xF7F)));
-# 2314 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 2314 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char PORTA __attribute__((address(0xF80)));
 
 __asm("PORTA equ 0F80h");
@@ -899,7 +899,7 @@ typedef union {
     };
 } PORTAbits_t;
 extern volatile PORTAbits_t PORTAbits __attribute__((address(0xF80)));
-# 2453 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 2453 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char PORTB __attribute__((address(0xF81)));
 
 __asm("PORTB equ 0F81h");
@@ -931,7 +931,7 @@ typedef union {
     };
 } PORTBbits_t;
 extern volatile PORTBbits_t PORTBbits __attribute__((address(0xF81)));
-# 2563 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 2563 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char PORTC __attribute__((address(0xF82)));
 
 __asm("PORTC equ 0F82h");
@@ -975,7 +975,7 @@ typedef union {
     };
 } PORTCbits_t;
 extern volatile PORTCbits_t PORTCbits __attribute__((address(0xF82)));
-# 2705 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 2705 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char PORTD __attribute__((address(0xF83)));
 
 __asm("PORTD equ 0F83h");
@@ -1008,7 +1008,7 @@ typedef union {
     };
 } PORTDbits_t;
 extern volatile PORTDbits_t PORTDbits __attribute__((address(0xF83)));
-# 2826 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 2826 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char PORTE __attribute__((address(0xF84)));
 
 __asm("PORTE equ 0F84h");
@@ -1052,7 +1052,7 @@ typedef union {
     };
 } PORTEbits_t;
 extern volatile PORTEbits_t PORTEbits __attribute__((address(0xF84)));
-# 2973 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 2973 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char LATA __attribute__((address(0xF89)));
 
 __asm("LATA equ 0F89h");
@@ -1079,7 +1079,7 @@ typedef union {
     };
 } LATAbits_t;
 extern volatile LATAbits_t LATAbits __attribute__((address(0xF89)));
-# 3073 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 3073 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char LATB __attribute__((address(0xF8A)));
 
 __asm("LATB equ 0F8Ah");
@@ -1108,7 +1108,7 @@ typedef union {
     };
 } LATBbits_t;
 extern volatile LATBbits_t LATBbits __attribute__((address(0xF8A)));
-# 3185 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 3185 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char LATC __attribute__((address(0xF8B)));
 
 __asm("LATC equ 0F8Bh");
@@ -1133,7 +1133,7 @@ typedef union {
     };
 } LATCbits_t;
 extern volatile LATCbits_t LATCbits __attribute__((address(0xF8B)));
-# 3263 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 3263 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char LATD __attribute__((address(0xF8C)));
 
 __asm("LATD equ 0F8Ch");
@@ -1162,7 +1162,7 @@ typedef union {
     };
 } LATDbits_t;
 extern volatile LATDbits_t LATDbits __attribute__((address(0xF8C)));
-# 3375 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 3375 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char LATE __attribute__((address(0xF8D)));
 
 __asm("LATE equ 0F8Dh");
@@ -1181,7 +1181,7 @@ typedef union {
     };
 } LATEbits_t;
 extern volatile LATEbits_t LATEbits __attribute__((address(0xF8D)));
-# 3427 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 3427 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char TRISA __attribute__((address(0xF92)));
 
 __asm("TRISA equ 0F92h");
@@ -1213,7 +1213,7 @@ typedef union {
     };
 } TRISAbits_t;
 extern volatile TRISAbits_t TRISAbits __attribute__((address(0xF92)));
-# 3530 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 3530 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 typedef union {
     struct {
         unsigned TRISA0 :1;
@@ -1235,7 +1235,7 @@ typedef union {
     };
 } DDRAbits_t;
 extern volatile DDRAbits_t DDRAbits __attribute__((address(0xF92)));
-# 3625 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 3625 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char TRISB __attribute__((address(0xF93)));
 
 __asm("TRISB equ 0F93h");
@@ -1269,7 +1269,7 @@ typedef union {
     };
 } TRISBbits_t;
 extern volatile TRISBbits_t TRISBbits __attribute__((address(0xF93)));
-# 3740 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 3740 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 typedef union {
     struct {
         unsigned TRISB0 :1;
@@ -1293,7 +1293,7 @@ typedef union {
     };
 } DDRBbits_t;
 extern volatile DDRBbits_t DDRBbits __attribute__((address(0xF93)));
-# 3847 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 3847 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char TRISC __attribute__((address(0xF94)));
 
 __asm("TRISC equ 0F94h");
@@ -1323,7 +1323,7 @@ typedef union {
     };
 } TRISCbits_t;
 extern volatile TRISCbits_t TRISCbits __attribute__((address(0xF94)));
-# 3928 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 3928 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 typedef union {
     struct {
         unsigned TRISC0 :1;
@@ -1343,7 +1343,7 @@ typedef union {
     };
 } DDRCbits_t;
 extern volatile DDRCbits_t DDRCbits __attribute__((address(0xF94)));
-# 4001 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 4001 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char TRISD __attribute__((address(0xF95)));
 
 __asm("TRISD equ 0F95h");
@@ -1377,7 +1377,7 @@ typedef union {
     };
 } TRISDbits_t;
 extern volatile TRISDbits_t TRISDbits __attribute__((address(0xF95)));
-# 4116 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 4116 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 typedef union {
     struct {
         unsigned TRISD0 :1;
@@ -1401,7 +1401,7 @@ typedef union {
     };
 } DDRDbits_t;
 extern volatile DDRDbits_t DDRDbits __attribute__((address(0xF95)));
-# 4223 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 4223 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char TRISE __attribute__((address(0xF96)));
 
 __asm("TRISE equ 0F96h");
@@ -1425,7 +1425,7 @@ typedef union {
     };
 } TRISEbits_t;
 extern volatile TRISEbits_t TRISEbits __attribute__((address(0xF96)));
-# 4278 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 4278 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 typedef union {
     struct {
         unsigned TRISE0 :1;
@@ -1439,7 +1439,7 @@ typedef union {
     };
 } DDREbits_t;
 extern volatile DDREbits_t DDREbits __attribute__((address(0xF96)));
-# 4325 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 4325 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char OSCTUNE __attribute__((address(0xF9B)));
 
 __asm("OSCTUNE equ 0F9Bh");
@@ -1460,7 +1460,7 @@ typedef union {
     };
 } OSCTUNEbits_t;
 extern volatile OSCTUNEbits_t OSCTUNEbits __attribute__((address(0xF9B)));
-# 4384 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 4384 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char PIE1 __attribute__((address(0xF9D)));
 
 __asm("PIE1 equ 0F9Dh");
@@ -1486,7 +1486,7 @@ typedef union {
     };
 } PIE1bits_t;
 extern volatile PIE1bits_t PIE1bits __attribute__((address(0xF9D)));
-# 4468 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 4468 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char PIR1 __attribute__((address(0xF9E)));
 
 __asm("PIR1 equ 0F9Eh");
@@ -1512,7 +1512,7 @@ typedef union {
     };
 } PIR1bits_t;
 extern volatile PIR1bits_t PIR1bits __attribute__((address(0xF9E)));
-# 4552 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 4552 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char IPR1 __attribute__((address(0xF9F)));
 
 __asm("IPR1 equ 0F9Fh");
@@ -1538,7 +1538,7 @@ typedef union {
     };
 } IPR1bits_t;
 extern volatile IPR1bits_t IPR1bits __attribute__((address(0xF9F)));
-# 4636 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 4636 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char PIE2 __attribute__((address(0xFA0)));
 
 __asm("PIE2 equ 0FA0h");
@@ -1561,7 +1561,7 @@ typedef union {
     };
 } PIE2bits_t;
 extern volatile PIE2bits_t PIE2bits __attribute__((address(0xFA0)));
-# 4707 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 4707 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char PIR2 __attribute__((address(0xFA1)));
 
 __asm("PIR2 equ 0FA1h");
@@ -1584,7 +1584,7 @@ typedef union {
     };
 } PIR2bits_t;
 extern volatile PIR2bits_t PIR2bits __attribute__((address(0xFA1)));
-# 4778 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 4778 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char IPR2 __attribute__((address(0xFA2)));
 
 __asm("IPR2 equ 0FA2h");
@@ -1607,7 +1607,7 @@ typedef union {
     };
 } IPR2bits_t;
 extern volatile IPR2bits_t IPR2bits __attribute__((address(0xFA2)));
-# 4849 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 4849 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char EECON1 __attribute__((address(0xFA6)));
 
 __asm("EECON1 equ 0FA6h");
@@ -1630,7 +1630,7 @@ typedef union {
     };
 } EECON1bits_t;
 extern volatile EECON1bits_t EECON1bits __attribute__((address(0xFA6)));
-# 4915 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 4915 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char EECON2 __attribute__((address(0xFA7)));
 
 __asm("EECON2 equ 0FA7h");
@@ -1694,7 +1694,7 @@ typedef union {
     };
 } RCSTAbits_t;
 extern volatile RCSTAbits_t RCSTAbits __attribute__((address(0xFAB)));
-# 5045 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 5045 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 typedef union {
     struct {
         unsigned RX9D :1;
@@ -1727,7 +1727,7 @@ typedef union {
     };
 } RCSTA1bits_t;
 extern volatile RCSTA1bits_t RCSTA1bits __attribute__((address(0xFAB)));
-# 5146 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 5146 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char TXSTA __attribute__((address(0xFAC)));
 
 __asm("TXSTA equ 0FACh");
@@ -1768,7 +1768,7 @@ typedef union {
     };
 } TXSTAbits_t;
 extern volatile TXSTAbits_t TXSTAbits __attribute__((address(0xFAC)));
-# 5278 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 5278 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 typedef union {
     struct {
         unsigned TX9D :1;
@@ -1799,7 +1799,7 @@ typedef union {
     };
 } TXSTA1bits_t;
 extern volatile TXSTA1bits_t TXSTA1bits __attribute__((address(0xFAC)));
-# 5402 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 5402 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char TXREG __attribute__((address(0xFAD)));
 
 __asm("TXREG equ 0FADh");
@@ -1885,7 +1885,7 @@ typedef union {
     };
 } T3CONbits_t;
 extern volatile T3CONbits_t T3CONbits __attribute__((address(0xFB1)));
-# 5566 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 5566 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned short TMR3 __attribute__((address(0xFB2)));
 
 __asm("TMR3 equ 0FB2h");
@@ -1933,7 +1933,7 @@ typedef union {
     };
 } CMCONbits_t;
 extern volatile CMCONbits_t CMCONbits __attribute__((address(0xFB4)));
-# 5677 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 5677 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char CVRCON __attribute__((address(0xFB5)));
 
 __asm("CVRCON equ 0FB5h");
@@ -1960,7 +1960,7 @@ typedef union {
     };
 } CVRCONbits_t;
 extern volatile CVRCONbits_t CVRCONbits __attribute__((address(0xFB5)));
-# 5762 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 5762 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char ECCP1AS __attribute__((address(0xFB6)));
 
 __asm("ECCP1AS equ 0FB6h");
@@ -1989,7 +1989,7 @@ typedef union {
     };
 } ECCP1ASbits_t;
 extern volatile ECCP1ASbits_t ECCP1ASbits __attribute__((address(0xFB6)));
-# 5847 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 5847 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 typedef union {
     struct {
         unsigned PSSBD :2;
@@ -2008,7 +2008,7 @@ typedef union {
     };
 } CCP1ASbits_t;
 extern volatile CCP1ASbits_t CCP1ASbits __attribute__((address(0xFB6)));
-# 5924 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 5924 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char ECCP1DEL __attribute__((address(0xFB7)));
 
 __asm("ECCP1DEL equ 0FB7h");
@@ -2035,7 +2035,7 @@ typedef union {
     };
 } ECCP1DELbits_t;
 extern volatile ECCP1DELbits_t ECCP1DELbits __attribute__((address(0xFB7)));
-# 5997 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 5997 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 typedef union {
     struct {
         unsigned PDC :7;
@@ -2052,7 +2052,7 @@ typedef union {
     };
 } CCP1DELbits_t;
 extern volatile CCP1DELbits_t CCP1DELbits __attribute__((address(0xFB7)));
-# 6062 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 6062 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char BAUDCON __attribute__((address(0xFB8)));
 
 __asm("BAUDCON equ 0FB8h");
@@ -2090,7 +2090,7 @@ typedef union {
     };
 } BAUDCONbits_t;
 extern volatile BAUDCONbits_t BAUDCONbits __attribute__((address(0xFB8)));
-# 6156 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 6156 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 typedef union {
     struct {
         unsigned ABDEN :1;
@@ -2118,7 +2118,7 @@ typedef union {
     };
 } BAUDCTLbits_t;
 extern volatile BAUDCTLbits_t BAUDCTLbits __attribute__((address(0xFB8)));
-# 6242 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 6242 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char CCP2CON __attribute__((address(0xFBA)));
 
 __asm("CCP2CON equ 0FBAh");
@@ -2139,7 +2139,7 @@ typedef union {
     };
 } CCP2CONbits_t;
 extern volatile CCP2CONbits_t CCP2CONbits __attribute__((address(0xFBA)));
-# 6306 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 6306 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned short CCPR2 __attribute__((address(0xFBB)));
 
 __asm("CCPR2 equ 0FBBh");
@@ -2189,7 +2189,7 @@ typedef union {
     };
 } CCP1CONbits_t;
 extern volatile CCP1CONbits_t CCP1CONbits __attribute__((address(0xFBD)));
-# 6412 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 6412 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 typedef union {
     struct {
         unsigned CCP1M :4;
@@ -2208,7 +2208,7 @@ typedef union {
     };
 } ECCP1CONbits_t;
 extern volatile ECCP1CONbits_t ECCP1CONbits __attribute__((address(0xFBD)));
-# 6489 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 6489 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned short CCPR1 __attribute__((address(0xFBE)));
 
 __asm("CCPR1 equ 0FBEh");
@@ -2252,7 +2252,7 @@ typedef union {
     };
 } ADCON2bits_t;
 extern volatile ADCON2bits_t ADCON2bits __attribute__((address(0xFC0)));
-# 6581 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 6581 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char ADCON1 __attribute__((address(0xFC1)));
 
 __asm("ADCON1 equ 0FC1h");
@@ -2279,7 +2279,7 @@ typedef union {
     };
 } ADCON1bits_t;
 extern volatile ADCON1bits_t ADCON1bits __attribute__((address(0xFC1)));
-# 6666 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 6666 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char ADCON0 __attribute__((address(0xFC2)));
 
 __asm("ADCON0 equ 0FC2h");
@@ -2325,7 +2325,7 @@ typedef union {
     };
 } ADCON0bits_t;
 extern volatile ADCON0bits_t ADCON0bits __attribute__((address(0xFC2)));
-# 6785 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 6785 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned short ADRES __attribute__((address(0xFC3)));
 
 __asm("ADRES equ 0FC3h");
@@ -2365,7 +2365,7 @@ typedef union {
     };
 } SSPCON2bits_t;
 extern volatile SSPCON2bits_t SSPCON2bits __attribute__((address(0xFC5)));
-# 6868 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 6868 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char SSPCON1 __attribute__((address(0xFC6)));
 
 __asm("SSPCON1 equ 0FC6h");
@@ -2387,7 +2387,7 @@ typedef union {
     };
 } SSPCON1bits_t;
 extern volatile SSPCON1bits_t SSPCON1bits __attribute__((address(0xFC6)));
-# 6938 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 6938 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char SSPSTAT __attribute__((address(0xFC7)));
 
 __asm("SSPSTAT equ 0FC7h");
@@ -2472,7 +2472,7 @@ typedef union {
     };
 } SSPSTATbits_t;
 extern volatile SSPSTATbits_t SSPSTATbits __attribute__((address(0xFC7)));
-# 7186 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 7186 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char SSPADD __attribute__((address(0xFC8)));
 
 __asm("SSPADD equ 0FC8h");
@@ -2516,7 +2516,7 @@ typedef union {
     };
 } T2CONbits_t;
 extern volatile T2CONbits_t T2CONbits __attribute__((address(0xFCA)));
-# 7298 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 7298 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char PR2 __attribute__((address(0xFCB)));
 
 __asm("PR2 equ 0FCBh");
@@ -2549,7 +2549,7 @@ typedef union {
     };
 } PR2bits_t;
 extern volatile PR2bits_t PR2bits __attribute__((address(0xFCB)));
-# 7357 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 7357 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 typedef union {
     struct {
         unsigned :7;
@@ -2572,7 +2572,7 @@ typedef union {
     };
 } MEMCONbits_t;
 extern volatile MEMCONbits_t MEMCONbits __attribute__((address(0xFCB)));
-# 7408 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 7408 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char TMR2 __attribute__((address(0xFCC)));
 
 __asm("TMR2 equ 0FCCh");
@@ -2614,7 +2614,7 @@ typedef union {
     };
 } T1CONbits_t;
 extern volatile T1CONbits_t T1CONbits __attribute__((address(0xFCD)));
-# 7518 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 7518 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned short TMR1 __attribute__((address(0xFCE)));
 
 __asm("TMR1 equ 0FCEh");
@@ -2686,7 +2686,7 @@ typedef union {
     };
 } RCONbits_t;
 extern volatile RCONbits_t RCONbits __attribute__((address(0xFD0)));
-# 7688 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 7688 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char WDTCON __attribute__((address(0xFD1)));
 
 __asm("WDTCON equ 0FD1h");
@@ -2701,7 +2701,7 @@ typedef union {
     };
 } WDTCONbits_t;
 extern volatile WDTCONbits_t WDTCONbits __attribute__((address(0xFD1)));
-# 7716 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 7716 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char HLVDCON __attribute__((address(0xFD2)));
 
 __asm("HLVDCON equ 0FD2h");
@@ -2744,7 +2744,7 @@ typedef union {
     };
 } HLVDCONbits_t;
 extern volatile HLVDCONbits_t HLVDCONbits __attribute__((address(0xFD2)));
-# 7855 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 7855 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 typedef union {
     struct {
         unsigned HLVDL :4;
@@ -2777,7 +2777,7 @@ typedef union {
     };
 } LVDCONbits_t;
 extern volatile LVDCONbits_t LVDCONbits __attribute__((address(0xFD2)));
-# 7986 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 7986 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char OSCCON __attribute__((address(0xFD3)));
 
 __asm("OSCCON equ 0FD3h");
@@ -2802,7 +2802,7 @@ typedef union {
     };
 } OSCCONbits_t;
 extern volatile OSCCONbits_t OSCCONbits __attribute__((address(0xFD3)));
-# 8069 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 8069 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char T0CON __attribute__((address(0xFD5)));
 
 __asm("T0CON equ 0FD5h");
@@ -2824,7 +2824,7 @@ typedef union {
     };
 } T0CONbits_t;
 extern volatile T0CONbits_t T0CONbits __attribute__((address(0xFD5)));
-# 8139 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 8139 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned short TMR0 __attribute__((address(0xFD6)));
 
 __asm("TMR0 equ 0FD6h");
@@ -2868,7 +2868,7 @@ typedef union {
     };
 } STATUSbits_t;
 extern volatile STATUSbits_t STATUSbits __attribute__((address(0xFD8)));
-# 8231 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 8231 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned short FSR2 __attribute__((address(0xFD9)));
 
 __asm("FSR2 equ 0FD9h");
@@ -3079,7 +3079,7 @@ typedef union {
     };
 } INTCON3bits_t;
 extern volatile INTCON3bits_t INTCON3bits __attribute__((address(0xFF0)));
-# 8505 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 8505 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char INTCON2 __attribute__((address(0xFF1)));
 
 __asm("INTCON2 equ 0FF1h");
@@ -3108,7 +3108,7 @@ typedef union {
     };
 } INTCON2bits_t;
 extern volatile INTCON2bits_t INTCON2bits __attribute__((address(0xFF1)));
-# 8582 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 8582 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned char INTCON __attribute__((address(0xFF2)));
 
 __asm("INTCON equ 0FF2h");
@@ -3142,7 +3142,7 @@ typedef union {
     };
 } INTCONbits_t;
 extern volatile INTCONbits_t INTCONbits __attribute__((address(0xFF2)));
-# 8699 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 8699 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile unsigned short PROD __attribute__((address(0xFF3)));
 
 __asm("PROD equ 0FF3h");
@@ -3263,7 +3263,7 @@ typedef union {
     };
 } STKPTRbits_t;
 extern volatile STKPTRbits_t STKPTRbits __attribute__((address(0xFFC)));
-# 8869 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 8869 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile __uint24 TOS __attribute__((address(0xFFD)));
 
 
@@ -3289,7 +3289,7 @@ __asm("TOSH equ 0FFEh");
 extern volatile unsigned char TOSU __attribute__((address(0xFFF)));
 
 __asm("TOSU equ 0FFFh");
-# 8904 "/opt/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
+# 8904 "/Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h" 3
 extern volatile __bit ABDEN __attribute__((address(0x7DC0)));
 
 
@@ -5595,9 +5595,9 @@ extern volatile __bit nW __attribute__((address(0x7E3A)));
 
 
 extern volatile __bit nWRITE __attribute__((address(0x7E3A)));
-# 630 "/opt/microchip/xc8/v2.05/pic/include/pic18_chip_select.h" 2 3
-# 9 "/opt/microchip/xc8/v2.05/pic/include/pic18.h" 2 3
-# 18 "/opt/microchip/xc8/v2.05/pic/include/pic18.h" 3
+# 630 "/Applications/microchip/xc8/v2.05/pic/include/pic18_chip_select.h" 2 3
+# 9 "/Applications/microchip/xc8/v2.05/pic/include/pic18.h" 2 3
+# 18 "/Applications/microchip/xc8/v2.05/pic/include/pic18.h" 3
 __attribute__((__unsupported__("The " "flash_write" " routine is no longer supported. Please use the MPLAB X MCC."))) void flash_write(const unsigned char *, unsigned int, __far unsigned char *);
 __attribute__((__unsupported__("The " "EraseFlash" " routine is no longer supported. Please use the MPLAB X MCC."))) void EraseFlash(unsigned long startaddr, unsigned long endaddr);
 
@@ -5607,16 +5607,16 @@ __attribute__((__unsupported__("The " "EraseFlash" " routine is no longer suppor
 
 
 
-# 1 "/opt/microchip/xc8/v2.05/pic/include/errata.h" 1 3
-# 27 "/opt/microchip/xc8/v2.05/pic/include/pic18.h" 2 3
-# 49 "/opt/microchip/xc8/v2.05/pic/include/pic18.h" 3
+# 1 "/Applications/microchip/xc8/v2.05/pic/include/errata.h" 1 3
+# 27 "/Applications/microchip/xc8/v2.05/pic/include/pic18.h" 2 3
+# 49 "/Applications/microchip/xc8/v2.05/pic/include/pic18.h" 3
 #pragma intrinsic(__nop)
 extern void __nop(void);
-# 154 "/opt/microchip/xc8/v2.05/pic/include/pic18.h" 3
+# 154 "/Applications/microchip/xc8/v2.05/pic/include/pic18.h" 3
 __attribute__((__unsupported__("The " "Read_b_eep" " routine is no longer supported. Please use the MPLAB X MCC."))) unsigned char Read_b_eep(unsigned int badd);
 __attribute__((__unsupported__("The " "Busy_eep" " routine is no longer supported. Please use the MPLAB X MCC."))) void Busy_eep(void);
 __attribute__((__unsupported__("The " "Write_b_eep" " routine is no longer supported. Please use the MPLAB X MCC."))) void Write_b_eep(unsigned int badd, unsigned char bdat);
-# 174 "/opt/microchip/xc8/v2.05/pic/include/pic18.h" 3
+# 174 "/Applications/microchip/xc8/v2.05/pic/include/pic18.h" 3
 unsigned char __t1rd16on(void);
 unsigned char __t3rd16on(void);
 
@@ -5631,7 +5631,7 @@ extern __attribute__((nonreentrant)) void _delay(unsigned long);
 extern __attribute__((nonreentrant)) void _delaywdt(unsigned long);
 #pragma intrinsic(_delay3)
 extern __attribute__((nonreentrant)) void _delay3(unsigned char);
-# 33 "/opt/microchip/xc8/v2.05/pic/include/xc.h" 2 3
+# 33 "/Applications/microchip/xc8/v2.05/pic/include/xc.h" 2 3
 # 10 "./voltimeter.h" 2
 
 
@@ -5700,24 +5700,24 @@ extern __attribute__((nonreentrant)) void _delay3(unsigned char);
 #pragma config EBTRB = OFF
 # 2 "main.c" 2
 
-# 1 "/opt/microchip/xc8/v2.05/pic/include/c99/stdio.h" 1 3
-# 24 "/opt/microchip/xc8/v2.05/pic/include/c99/stdio.h" 3
-# 1 "/opt/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 1 3
-# 10 "/opt/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
+# 1 "/Applications/microchip/xc8/v2.05/pic/include/c99/stdio.h" 1 3
+# 24 "/Applications/microchip/xc8/v2.05/pic/include/c99/stdio.h" 3
+# 1 "/Applications/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 1 3
+# 10 "/Applications/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
 typedef void * va_list[1];
 
 
 
 
 typedef void * __isoc_va_list[1];
-# 145 "/opt/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
+# 145 "/Applications/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
 typedef long ssize_t;
-# 254 "/opt/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
+# 254 "/Applications/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
 typedef long long off_t;
-# 407 "/opt/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
+# 407 "/Applications/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
 typedef struct _IO_FILE FILE;
-# 25 "/opt/microchip/xc8/v2.05/pic/include/c99/stdio.h" 2 3
-# 52 "/opt/microchip/xc8/v2.05/pic/include/c99/stdio.h" 3
+# 25 "/Applications/microchip/xc8/v2.05/pic/include/c99/stdio.h" 2 3
+# 52 "/Applications/microchip/xc8/v2.05/pic/include/c99/stdio.h" 3
 typedef union _G_fpos64_t {
  char __opaque[16];
  double __align;
@@ -5838,23 +5838,23 @@ char *ctermid(char *);
 char *tempnam(const char *, const char *);
 # 4 "main.c" 2
 
-# 1 "/opt/microchip/xc8/v2.05/pic/include/c99/math.h" 1 3
-# 10 "/opt/microchip/xc8/v2.05/pic/include/c99/math.h" 3
-# 1 "/opt/microchip/xc8/v2.05/pic/include/c99/stdint.h" 1 3
-# 22 "/opt/microchip/xc8/v2.05/pic/include/c99/stdint.h" 3
-# 1 "/opt/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 1 3
-# 135 "/opt/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
+# 1 "/Applications/microchip/xc8/v2.05/pic/include/c99/math.h" 1 3
+# 10 "/Applications/microchip/xc8/v2.05/pic/include/c99/math.h" 3
+# 1 "/Applications/microchip/xc8/v2.05/pic/include/c99/stdint.h" 1 3
+# 22 "/Applications/microchip/xc8/v2.05/pic/include/c99/stdint.h" 3
+# 1 "/Applications/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 1 3
+# 135 "/Applications/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
 typedef unsigned long uintptr_t;
-# 150 "/opt/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
+# 150 "/Applications/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
 typedef long intptr_t;
-# 166 "/opt/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
+# 166 "/Applications/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
 typedef signed char int8_t;
 
 
 
 
 typedef short int16_t;
-# 181 "/opt/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
+# 181 "/Applications/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
 typedef long int32_t;
 
 
@@ -5862,7 +5862,7 @@ typedef long int32_t;
 
 
 typedef long long int64_t;
-# 196 "/opt/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
+# 196 "/Applications/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
 typedef long long intmax_t;
 
 
@@ -5875,7 +5875,7 @@ typedef unsigned char uint8_t;
 
 
 typedef unsigned short uint16_t;
-# 217 "/opt/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
+# 217 "/Applications/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
 typedef unsigned long uint32_t;
 
 
@@ -5883,9 +5883,9 @@ typedef unsigned long uint32_t;
 
 
 typedef unsigned long long uint64_t;
-# 237 "/opt/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
+# 237 "/Applications/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
 typedef unsigned long long uintmax_t;
-# 23 "/opt/microchip/xc8/v2.05/pic/include/c99/stdint.h" 2 3
+# 23 "/Applications/microchip/xc8/v2.05/pic/include/c99/stdint.h" 2 3
 
 typedef int8_t int_fast8_t;
 
@@ -5915,32 +5915,32 @@ typedef uint24_t uint_least24_t;
 typedef uint32_t uint_least32_t;
 
 typedef uint64_t uint_least64_t;
-# 155 "/opt/microchip/xc8/v2.05/pic/include/c99/stdint.h" 3
-# 1 "/opt/microchip/xc8/v2.05/pic/include/c99/bits/stdint.h" 1 3
+# 155 "/Applications/microchip/xc8/v2.05/pic/include/c99/stdint.h" 3
+# 1 "/Applications/microchip/xc8/v2.05/pic/include/c99/bits/stdint.h" 1 3
 typedef int32_t int_fast16_t;
 typedef int32_t int_fast32_t;
 typedef uint32_t uint_fast16_t;
 typedef uint32_t uint_fast32_t;
-# 156 "/opt/microchip/xc8/v2.05/pic/include/c99/stdint.h" 2 3
-# 11 "/opt/microchip/xc8/v2.05/pic/include/c99/math.h" 2 3
+# 156 "/Applications/microchip/xc8/v2.05/pic/include/c99/stdint.h" 2 3
+# 11 "/Applications/microchip/xc8/v2.05/pic/include/c99/math.h" 2 3
 
 
 
 
-# 1 "/opt/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 1 3
-# 37 "/opt/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
+# 1 "/Applications/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 1 3
+# 37 "/Applications/microchip/xc8/v2.05/pic/include/c99/bits/alltypes.h" 3
 typedef float float_t;
 
 
 
 
 typedef double double_t;
-# 16 "/opt/microchip/xc8/v2.05/pic/include/c99/math.h" 2 3
-# 46 "/opt/microchip/xc8/v2.05/pic/include/c99/math.h" 3
+# 16 "/Applications/microchip/xc8/v2.05/pic/include/c99/math.h" 2 3
+# 46 "/Applications/microchip/xc8/v2.05/pic/include/c99/math.h" 3
 int __fpclassifyf(float);
-# 97 "/opt/microchip/xc8/v2.05/pic/include/c99/math.h" 3
+# 97 "/Applications/microchip/xc8/v2.05/pic/include/c99/math.h" 3
 int __signbitf(float);
-# 149 "/opt/microchip/xc8/v2.05/pic/include/c99/math.h" 3
+# 149 "/Applications/microchip/xc8/v2.05/pic/include/c99/math.h" 3
 double acos(double);
 float acosf(float);
 long double acosl(long double);
@@ -6280,7 +6280,7 @@ long double nextafterl(long double, long double);
 double nexttoward(double, long double);
 float nexttowardf(float, long double);
 long double nexttowardl(long double, long double);
-# 498 "/opt/microchip/xc8/v2.05/pic/include/c99/math.h" 3
+# 498 "/Applications/microchip/xc8/v2.05/pic/include/c99/math.h" 3
 double pow(double, double);
 __attribute__((nonreentrant)) float powf(float, float);
 long double powl(long double, long double);
@@ -6388,7 +6388,7 @@ long double tgammal(long double);
 double trunc(double);
 float truncf(float);
 long double truncl(long double);
-# 631 "/opt/microchip/xc8/v2.05/pic/include/c99/math.h" 3
+# 631 "/Applications/microchip/xc8/v2.05/pic/include/c99/math.h" 3
 extern int signgam;
 
 double j0(double);
@@ -6399,7 +6399,7 @@ double y0(double);
 double y1(double);
 double yn(int, double);
 # 6 "main.c" 2
-# 17 "main.c"
+# 18 "main.c"
 void MSdelay(unsigned int );
 void LCD_Init();
 void LCD_Command(unsigned char );
@@ -6418,11 +6418,22 @@ int current_read;
 int voltage_read;
 int max_current = 0;
 int max_current_ant = 0;
-float current = 0;
-float voltage = 0;
-char current_str[10];
-char voltage_str[10];
-unsigned int counter = 0x00;
+int max_voltage = 0;
+int max_voltage_ant = 0;
+unsigned long int time_current;
+unsigned long int time_voltage;
+float current = 0.;
+float voltage = 0.;
+float power = 0.;
+float phase = 0;
+float phase_ant;
+char current_str[7];
+char voltage_str[7];
+char phase_str[7];
+char power_str[7];
+unsigned long int counter = 0x00;
+unsigned int counter2 = 0x00;
+
 
 
 int main(void)
@@ -6435,39 +6446,50 @@ int main(void)
     LCD_Clear();
  while(1)
     {
-
-
-
-
         current_read = ADC_Read(0);
+        voltage_read = ADC_Read(1);
 
         if (current_read > max_current)
         {
-            max_current = (max_current + current_read) / 2;
+            max_current = current_read;
+            time_current = counter;
         }
-        if (counter >= 500)
+        if (voltage_read > max_voltage)
+        {
+            max_voltage = voltage_read;
+            time_voltage = counter;
+        }
+
+
+
+
+        if (counter2 >= 50000)
         {
             max_current = (0.5 * max_current_ant) + (1 - 0.5)*max_current;
             current = max_current * 5. / 1023. - 2.5;
             current = current / ( 0.2 * sqrtf(2));
-            if (current >= 10 || (current <0 && current >-10))
+            max_voltage = (0.5 * max_voltage_ant) + (1 - 0.5)*max_voltage;
+            voltage = max_voltage * 5. / 1023. - 2.5;
+            voltage = voltage / ( 0.0227);
+            if (voltage > 0 && current > 0)
             {
-                sprintf(current_str, "I = %0.3f  A", current);
+                sprintf(voltage_str, "V=%0.1fV", voltage);
+                LCD_String_xy(1,1, voltage_str);
+                MSdelay(10);
+                sprintf(current_str, "I=%0.1fA", current);
+                LCD_String_xy(1,10, current_str);
+                MSdelay(10);
+                power = current * voltage;
+                sprintf(power_str, "P=%0.2f W", power);
+                LCD_String_xy(2,1, power_str);
             }
-            if (current <= -10)
-            {
-                sprintf(current_str, "I = %0.3f A", current);
-            }
-            if (current >= 0 && current <10)
-            {
-                sprintf(current_str, "I = %0.3f   A", current);
-            }
-            LCD_String_xy(2,1, current_str);
-            counter = 0;
             max_current_ant = max_current;
             max_current = 0;
+            max_voltage_ant = max_voltage;
+            max_voltage = 0;
+
         }
-# 101 "main.c"
+# 124 "main.c"
    }
 }
 
@@ -6566,7 +6588,8 @@ void MSdelay(unsigned int val)
 void __attribute__((picinterrupt(("")))) timer1_isr(void)
 {
     counter++;
-    TMR1=0xF856;
+    counter2++;
+    TMR1=0xfff6;
 
     PIR1bits.TMR1IF=0;
 }
@@ -6581,7 +6604,7 @@ void TIMER1_Start()
 
     T1CON=0x80;
 
-    TMR1=0xF856;
+    TMR1=0xfff6;
     TMR1ON=1;
 }
 

@@ -3,15 +3,15 @@
 [d edition pro ]
 [d chip 18F4550 ]
 [d frameptr 4065 ]
-"4 /opt/microchip/xc8/v2.05/pic/sources/c99/common/__fpclassifyf.c
+"4 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/__fpclassifyf.c
 [v ___fpclassifyf __fpclassifyf `(i  1 e 2 0 ]
-"4 /opt/microchip/xc8/v2.05/pic/sources/c99/common/atoi.c
+"4 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/atoi.c
 [v _atoi atoi `(i  1 e 2 0 ]
-"7 /opt/microchip/xc8/v2.05/pic/sources/c99/common/awdiv.c
+"7 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/awdiv.c
 [v ___awdiv __awdiv `(i  1 e 2 0 ]
-"7 /opt/microchip/xc8/v2.05/pic/sources/c99/common/awmod.c
+"7 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/awmod.c
 [v ___awmod __awmod `(i  1 e 2 0 ]
-"72 /opt/microchip/xc8/v2.05/pic/sources/c99/common/doprnt.c
+"72 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/doprnt.c
 [v _pad pad `(i  1 s 2 pad ]
 "319
 [v _efgtoa efgtoa `(i  1 s 2 efgtoa ]
@@ -19,93 +19,93 @@
 [v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
 "1368
 [v _vfprintf vfprintf `(i  1 e 2 0 ]
-"4 /opt/microchip/xc8/v2.05/pic/sources/c99/common/fleq.c
+"4 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/fleq.c
 [v ___fleq __fleq `(b  1 e 0 0 ]
-"4 /opt/microchip/xc8/v2.05/pic/sources/c99/common/flge.c
+"4 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/flge.c
 [v ___flge __flge `(b  1 e 0 0 ]
-"15 /opt/microchip/xc8/v2.05/pic/sources/c99/common/flneg.c
+"15 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/flneg.c
 [v ___flneg __flneg `(d  1 e 4 0 ]
-"62 /opt/microchip/xc8/v2.05/pic/sources/c99/common/float.c
+"62 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/float.c
 [v ___ftpack __ftpack `(f  1 e 4 0 ]
-"3 /opt/microchip/xc8/v2.05/pic/sources/c99/common/floorf.c
+"3 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/floorf.c
 [v _floorf floorf `(f  1 e 4 0 ]
-"43 /opt/microchip/xc8/v2.05/pic/sources/c99/common/fltol.c
+"43 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/fltol.c
 [v ___fltol __fltol `(l  1 e 4 0 ]
-"86 /opt/microchip/xc8/v2.05/pic/sources/c99/common/ftadd.c
+"86 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/ftadd.c
 [v ___ftadd __ftadd `(f  1 e 4 0 ]
-"54 /opt/microchip/xc8/v2.05/pic/sources/c99/common/ftdiv.c
+"54 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/ftdiv.c
 [v ___ftdiv __ftdiv `(f  1 e 4 0 ]
-"62 /opt/microchip/xc8/v2.05/pic/sources/c99/common/ftmul.c
+"62 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/ftmul.c
 [v ___ftmul __ftmul `(f  1 e 4 0 ]
-"19 /opt/microchip/xc8/v2.05/pic/sources/c99/common/ftsub.c
+"19 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/ftsub.c
 [v ___ftsub __ftsub `(f  1 e 4 0 ]
-"5 /opt/microchip/xc8/v2.05/pic/sources/c99/common/isdigit.c
+"5 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/isdigit.c
 [v _isdigit isdigit `(i  1 e 2 0 ]
-"5 /opt/microchip/xc8/v2.05/pic/sources/c99/common/isspace.c
+"5 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/isspace.c
 [v _isspace isspace `(i  1 e 2 0 ]
-"5 /opt/microchip/xc8/v2.05/pic/sources/c99/common/isupper.c
+"5 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/isupper.c
 [v _isupper isupper `(i  1 e 2 0 ]
-"4 /opt/microchip/xc8/v2.05/pic/sources/c99/common/nanf.c
+"4 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/nanf.c
 [v _nanf nanf `(f  1 e 4 0 ]
-"8 /opt/microchip/xc8/v2.05/pic/sources/c99/common/nf_fputc.c
+"8 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/nf_fputc.c
 [v _fputc fputc `(i  1 e 2 0 ]
-"8 /opt/microchip/xc8/v2.05/pic/sources/c99/common/nf_fputs.c
+"8 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/nf_fputs.c
 [v _fputs fputs `(i  1 e 2 0 ]
-"9 /opt/microchip/xc8/v2.05/pic/sources/c99/common/nf_sprintf.c
+"9 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/nf_sprintf.c
 [v _sprintf sprintf `(i  1 e 2 0 ]
-"7 /opt/microchip/xc8/v2.05/pic/sources/c99/common/putch.c
+"7 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/putch.c
 [v _putch putch `(v  1 e 1 0 ]
-"10 /opt/microchip/xc8/v2.05/pic/sources/c99/common/sprcadd.c
+"10 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/sprcadd.c
 [v ___fladd __fladd `(d  1 e 4 0 ]
 "245
 [v ___flsub __flsub `(d  1 e 4 0 ]
-"11 /opt/microchip/xc8/v2.05/pic/sources/c99/common/sprcdiv.c
+"11 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/sprcdiv.c
 [v ___fldiv __fldiv `(d  1 e 4 0 ]
-"8 /opt/microchip/xc8/v2.05/pic/sources/c99/common/sprcmul.c
+"8 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/sprcmul.c
 [v ___flmul __flmul `(d  1 e 4 0 ]
-"24 /opt/microchip/xc8/v2.05/pic/sources/c99/common/sqrtf.c
+"24 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/sqrtf.c
 [v _sqrtf sqrtf `(f  1 e 4 0 ]
-"7 /opt/microchip/xc8/v2.05/pic/sources/c99/common/strcpy.c
+"7 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/strcpy.c
 [v _strcpy strcpy `(*.39uc  1 e 2 0 ]
-"12 /opt/microchip/xc8/v2.05/pic/sources/c99/common/strlen.c
+"12 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/strlen.c
 [v _strlen strlen `(ui  1 e 2 0 ]
-"3 /opt/microchip/xc8/v2.05/pic/sources/c99/common/strncmp.c
+"3 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/strncmp.c
 [v _strncmp strncmp `(i  1 e 2 0 ]
-"4 /opt/microchip/xc8/v2.05/pic/sources/c99/common/tolower.c
+"4 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/tolower.c
 [v _tolower tolower `(i  1 e 2 0 ]
-"15 /opt/microchip/xc8/v2.05/pic/sources/c99/common/Umul16.c
+"15 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/Umul16.c
 [v ___wmul __wmul `(ui  1 e 2 0 ]
-"15 /opt/microchip/xc8/v2.05/pic/sources/c99/common/Umul32.c
+"15 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/Umul32.c
 [v ___lmul __lmul `(ul  1 e 4 0 ]
-"91 /opt/microchip/xc8/v2.05/pic/sources/c99/common/Umul64.c
+"91 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"10 /opt/microchip/xc8/v2.05/pic/sources/c99/common/xxtofl.c
+"10 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/xxtofl.c
 [v ___xxtofl __xxtofl `(d  1 e 4 0 ]
-"42 /home/clyfee/Documents/Sistemas_medicao/display.X/main.c
+"54 /Users/clyffe/Public/Vatimetro-master/display.X/main.c
 [v _main main `(i  1 e 2 0 ]
-"106
+"129
 [v _LCD_Init LCD_Init `(v  1 e 1 0 ]
-"119
+"142
 [v _LCD_Command LCD_Command `(v  1 e 1 0 ]
-"135
-[v _LCD_Char LCD_Char `(v  1 e 1 0 ]
-"149
-[v _LCD_String LCD_String `(v  1 e 1 0 ]
 "158
+[v _LCD_Char LCD_Char `(v  1 e 1 0 ]
+"172
+[v _LCD_String LCD_String `(v  1 e 1 0 ]
+"181
 [v _LCD_String_xy LCD_String_xy `(v  1 e 1 0 ]
-"176
+"199
 [v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
-"188
+"211
 [v _MSdelay MSdelay `(v  1 e 1 0 ]
-"196
+"219
 [v _timer1_isr timer1_isr `IIH(v  1 e 1 0 ]
-"204
-[v _TIMER1_Start TIMER1_Start `(v  1 e 1 0 ]
-"218
-[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
 "228
+[v _TIMER1_Start TIMER1_Start `(v  1 e 1 0 ]
+"242
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+"252
 [v _ADC_Read ADC_Read `(i  1 e 2 0 ]
-"3073 /opt/microchip/xc8/v2.05/pic/include/pic18f4550.h
+"3073 /Applications/microchip/xc8/v2.05/pic/include/pic18f4550.h
 [v _LATB LATB `VEuc  1 e 1 @3978 ]
 "3427
 [v _TRISA TRISA `VEuc  1 e 1 @3986 ]
@@ -197,7 +197,7 @@
 [v _TMR1IF TMR1IF `VEb  1 e 0 @31984 ]
 "10836
 [v _TMR1ON TMR1ON `VEb  1 e 0 @32360 ]
-"55 /opt/microchip/xc8/v2.05/pic/sources/c99/common/doprnt.c
+"55 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/doprnt.c
 [v _flags flags `i  1 s 2 flags ]
 [v _prec prec `i  1 s 2 prec ]
 [v _width width `i  1 s 2 width ]
@@ -205,26 +205,46 @@
 [v _dbuf dbuf `[80]uc  1 s 80 dbuf ]
 "69
 [v _nout nout `i  1 s 2 nout ]
-"3 /opt/microchip/xc8/v2.05/pic/sources/c99/common/errno.c
+"3 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/errno.c
 [v _errno errno `i  1 e 2 0 ]
-"31 /home/clyfee/Documents/Sistemas_medicao/display.X/main.c
+"32 /Users/clyffe/Public/Vatimetro-master/display.X/main.c
 [v _current_read current_read `i  1 e 2 0 ]
 "33
-[v _max_current max_current `i  1 e 2 0 ]
+[v _voltage_read voltage_read `i  1 e 2 0 ]
 "34
-[v _max_current_ant max_current_ant `i  1 e 2 0 ]
+[v _max_current max_current `i  1 e 2 0 ]
 "35
-[v _current current `f  1 e 4 0 ]
+[v _max_current_ant max_current_ant `i  1 e 2 0 ]
+"36
+[v _max_voltage max_voltage `i  1 e 2 0 ]
 "37
-[v _current_str current_str `[10]uc  1 e 10 0 ]
+[v _max_voltage_ant max_voltage_ant `i  1 e 2 0 ]
+"38
+[v _time_current time_current `ul  1 e 4 0 ]
 "39
-[v _counter counter `ui  1 e 2 0 ]
+[v _time_voltage time_voltage `ul  1 e 4 0 ]
+"40
+[v _current current `f  1 e 4 0 ]
+"41
+[v _voltage voltage `f  1 e 4 0 ]
 "42
+[v _power power `f  1 e 4 0 ]
+"45
+[v _current_str current_str `[7]uc  1 e 7 0 ]
+"46
+[v _voltage_str voltage_str `[7]uc  1 e 7 0 ]
+"48
+[v _power_str power_str `[7]uc  1 e 7 0 ]
+"49
+[v _counter counter `ul  1 e 4 0 ]
+"50
+[v _counter2 counter2 `ui  1 e 2 0 ]
+"54
 [v _main main `(i  1 e 2 0 ]
 {
-"102
+"125
 } 0
-"24 /opt/microchip/xc8/v2.05/pic/sources/c99/common/sqrtf.c
+"24 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/sqrtf.c
 [v _sqrtf sqrtf `(f  1 e 4 0 ]
 {
 "28
@@ -238,9 +258,9 @@
 "28
 [v sqrtf@t t `l  1 a 4 29 ]
 [v sqrtf@q q `l  1 a 4 25 ]
-[u S836 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+[u S846 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
 "31
-[v sqrtf@__xc8_float_word __xc8_float_word `S836  1 a 4 21 ]
+[v sqrtf@__xc8_float_word __xc8_float_word `S846  1 a 4 21 ]
 "28
 [v sqrtf@i i `l  1 a 4 17 ]
 [v sqrtf@s s `l  1 a 4 13 ]
@@ -248,22 +268,22 @@
 [v sqrtf@x x `f  1 p 4 0 ]
 "97
 } 0
-"4 /opt/microchip/xc8/v2.05/pic/sources/c99/common/nanf.c
+"4 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/nanf.c
 [v _nanf nanf `(f  1 e 4 0 ]
 {
-[u S836 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+[u S846 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
 "7
-[v nanf@u u `S836  1 a 4 4 ]
+[v nanf@u u `S846  1 a 4 4 ]
 "4
 [v nanf@s s `*.25Cuc  1 p 2 0 ]
 "13
 } 0
-"9 /opt/microchip/xc8/v2.05/pic/sources/c99/common/nf_sprintf.c
+"9 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/nf_sprintf.c
 [v _sprintf sprintf `(i  1 e 2 0 ]
 {
-[s S902 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[s S912 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
 "13
-[v sprintf@f f `S902  1 a 6 122 ]
+[v sprintf@f f `S912  1 a 6 122 ]
 "12
 [v sprintf@ap ap `[1]*.39v  1 a 2 120 ]
 "9
@@ -271,14 +291,14 @@
 [v sprintf@fmt fmt `*.25Cuc  1 p 2 112 ]
 "23
 } 0
-"1368 /opt/microchip/xc8/v2.05/pic/sources/c99/common/doprnt.c
+"1368 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/doprnt.c
 [v _vfprintf vfprintf `(i  1 e 2 0 ]
 {
 "1371
 [v vfprintf@cfmt cfmt `*.25uc  1 a 2 108 ]
-[s S258 _IO_FILE 0 ]
+[s S268 _IO_FILE 0 ]
 "1368
-[v vfprintf@fp fp `*.39S258  1 p 2 102 ]
+[v vfprintf@fp fp `*.39S268  1 p 2 102 ]
 [v vfprintf@fmt fmt `*.25Cuc  1 p 2 104 ]
 [v vfprintf@ap ap `*.39*.39v  1 p 2 106 ]
 "1382
@@ -294,14 +314,14 @@
 [v vfpfcnvrt@done done `i  1 a 2 88 ]
 "672
 [v vfpfcnvrt@c c `uc  1 a 1 101 ]
-[s S258 _IO_FILE 0 ]
+[s S268 _IO_FILE 0 ]
 "670
-[v vfpfcnvrt@fp fp `*.39S258  1 p 2 78 ]
+[v vfpfcnvrt@fp fp `*.39S268  1 p 2 78 ]
 [v vfpfcnvrt@fmt fmt `*.39*.25uc  1 p 2 80 ]
 [v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 82 ]
 "1365
 } 0
-"3 /opt/microchip/xc8/v2.05/pic/sources/c99/common/strncmp.c
+"3 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/strncmp.c
 [v _strncmp strncmp `(i  1 e 2 0 ]
 {
 "5
@@ -313,7 +333,7 @@
 [v strncmp@n n `ui  1 p 2 4 ]
 "9
 } 0
-"319 /opt/microchip/xc8/v2.05/pic/sources/c99/common/doprnt.c
+"319 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/doprnt.c
 [v _efgtoa efgtoa `(i  1 s 2 efgtoa ]
 {
 "323
@@ -337,26 +357,26 @@
 "321
 [v efgtoa@mode mode `uc  1 a 1 55 ]
 [v efgtoa@nmode nmode `uc  1 a 1 52 ]
-[s S258 _IO_FILE 0 ]
+[s S268 _IO_FILE 0 ]
 "319
-[v efgtoa@fp fp `*.39S258  1 p 2 10 ]
+[v efgtoa@fp fp `*.39S268  1 p 2 10 ]
 [v efgtoa@f f `d  1 p 4 12 ]
 [v efgtoa@c c `uc  1 p 1 16 ]
 "503
 } 0
-"4 /opt/microchip/xc8/v2.05/pic/sources/c99/common/tolower.c
+"4 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/tolower.c
 [v _tolower tolower `(i  1 e 2 0 ]
 {
 [v tolower@c c `i  1 p 2 6 ]
 "8
 } 0
-"5 /opt/microchip/xc8/v2.05/pic/sources/c99/common/isupper.c
+"5 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/isupper.c
 [v _isupper isupper `(i  1 e 2 0 ]
 {
 [v isupper@c c `i  1 p 2 0 ]
 "8
 } 0
-"7 /opt/microchip/xc8/v2.05/pic/sources/c99/common/strcpy.c
+"7 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/strcpy.c
 [v _strcpy strcpy `(*.39uc  1 e 2 0 ]
 {
 "14
@@ -368,20 +388,20 @@
 [v strcpy@src src `*.35Cuc  1 p 2 2 ]
 "18
 } 0
-"72 /opt/microchip/xc8/v2.05/pic/sources/c99/common/doprnt.c
+"72 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/doprnt.c
 [v _pad pad `(i  1 s 2 pad ]
 {
 "74
 [v pad@w w `i  1 a 2 25 ]
 [v pad@i i `i  1 a 2 23 ]
-[s S258 _IO_FILE 0 ]
+[s S268 _IO_FILE 0 ]
 "72
-[v pad@fp fp `*.39S258  1 p 2 16 ]
+[v pad@fp fp `*.39S268  1 p 2 16 ]
 [v pad@buf buf `*.39uc  1 p 2 18 ]
 [v pad@p p `i  1 p 2 20 ]
 "95
 } 0
-"12 /opt/microchip/xc8/v2.05/pic/sources/c99/common/strlen.c
+"12 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/strlen.c
 [v _strlen strlen `(ui  1 e 2 0 ]
 {
 "14
@@ -390,7 +410,7 @@
 [v strlen@s s `*.39Cuc  1 p 2 0 ]
 "26
 } 0
-"8 /opt/microchip/xc8/v2.05/pic/sources/c99/common/nf_fputs.c
+"8 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/nf_fputs.c
 [v _fputs fputs `(i  1 e 2 0 ]
 {
 "11
@@ -399,29 +419,29 @@
 [v fputs@c c `uc  1 a 1 13 ]
 "8
 [v fputs@s s `*.39Cuc  1 p 2 9 ]
-[s S902 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
-[v fputs@fp fp `*.39S902  1 p 2 11 ]
+[s S912 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputs@fp fp `*.39S912  1 p 2 11 ]
 "19
 } 0
-"8 /opt/microchip/xc8/v2.05/pic/sources/c99/common/nf_fputc.c
+"8 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/nf_fputc.c
 [v _fputc fputc `(i  1 e 2 0 ]
 {
 [v fputc@c c `i  1 p 2 0 ]
-[s S902 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
-[v fputc@fp fp `*.39S902  1 p 2 2 ]
+[s S912 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputc@fp fp `*.39S912  1 p 2 2 ]
 "21
 } 0
-"7 /opt/microchip/xc8/v2.05/pic/sources/c99/common/putch.c
+"7 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/putch.c
 [v _putch putch `(v  1 e 1 0 ]
 {
 "9
 } 0
-"3 /opt/microchip/xc8/v2.05/pic/sources/c99/common/floorf.c
+"3 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/floorf.c
 [v _floorf floorf `(f  1 e 4 0 ]
 {
-[u S836 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+[u S846 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
 "5
-[v floorf@u u `S836  1 a 4 6 ]
+[v floorf@u u `S846  1 a 4 6 ]
 "7
 [v floorf@m m `ul  1 a 4 0 ]
 "6
@@ -429,24 +449,24 @@
 "3
 [v floorf@x x `f  1 p 4 76 ]
 "4
-[v floorf@F524 F524 `S836  1 s 4 F524 ]
+[v floorf@F524 F524 `S846  1 s 4 F524 ]
 "27
 } 0
-"4 /opt/microchip/xc8/v2.05/pic/sources/c99/common/__fpclassifyf.c
+"4 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/__fpclassifyf.c
 [v ___fpclassifyf __fpclassifyf `(i  1 e 2 0 ]
 {
-[u S836 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+[u S846 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
 "6
-[v ___fpclassifyf@u u `S836  1 a 4 10 ]
+[v ___fpclassifyf@u u `S846  1 a 4 10 ]
 "7
 [v ___fpclassifyf@e e `i  1 a 2 8 ]
 "4
 [v ___fpclassifyf@x x `f  1 p 4 0 ]
 "5
-[v ___fpclassifyf@F463 F463 `S836  1 s 4 F463 ]
+[v ___fpclassifyf@F463 F463 `S846  1 s 4 F463 ]
 "11
 } 0
-"43 /opt/microchip/xc8/v2.05/pic/sources/c99/common/fltol.c
+"43 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/fltol.c
 [v ___fltol __fltol `(l  1 e 4 0 ]
 {
 "45
@@ -456,7 +476,7 @@
 [v ___fltol@f1 f1 `d  1 p 4 0 ]
 "70
 } 0
-"245 /opt/microchip/xc8/v2.05/pic/sources/c99/common/sprcadd.c
+"245 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/sprcadd.c
 [v ___flsub __flsub `(d  1 e 4 0 ]
 {
 [v ___flsub@b b `d  1 p 4 0 ]
@@ -479,26 +499,26 @@
 [v ___fladd@a a `d  1 p 4 80 ]
 "237
 } 0
-"15 /opt/microchip/xc8/v2.05/pic/sources/c99/common/flneg.c
+"15 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/flneg.c
 [v ___flneg __flneg `(d  1 e 4 0 ]
 {
 [v ___flneg@f1 f1 `d  1 p 4 0 ]
 "20
 } 0
-"8 /opt/microchip/xc8/v2.05/pic/sources/c99/common/sprcmul.c
+"8 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/sprcmul.c
 [v ___flmul __flmul `(d  1 e 4 0 ]
 {
-[s S701 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+[s S711 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
 "13
-[s S706 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
-[u S709 . 4 `l 1 i 4 0 `d 1 f 4 0 `S701 1 fAsBytes 4 0 `S706 1 fAsWords 4 0 ]
-[v ___flmul@prod prod `S709  1 a 4 33 ]
+[s S716 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S719 . 4 `l 1 i 4 0 `d 1 f 4 0 `S711 1 fAsBytes 4 0 `S716 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S719  1 a 4 33 ]
 "12
 [v ___flmul@grs grs `ul  1 a 4 27 ]
-[s S777 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+[s S787 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
 "14
-[u S780 . 2 `s 1 i 2 0 `us 1 n 2 0 `S777 1 nAsBytes 2 0 ]
-[v ___flmul@temp temp `S780  1 a 2 37 ]
+[u S790 . 2 `s 1 i 2 0 `us 1 n 2 0 `S787 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S790  1 a 2 37 ]
 "10
 [v ___flmul@bexp bexp `uc  1 a 1 32 ]
 "11
@@ -510,21 +530,21 @@
 [v ___flmul@a a `d  1 p 4 18 ]
 "205
 } 0
-"4 /opt/microchip/xc8/v2.05/pic/sources/c99/common/flge.c
+"4 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/flge.c
 [v ___flge __flge `(b  1 e 0 0 ]
 {
 [v ___flge@ff1 ff1 `d  1 p 4 39 ]
 [v ___flge@ff2 ff2 `d  1 p 4 43 ]
 "19
 } 0
-"4 /opt/microchip/xc8/v2.05/pic/sources/c99/common/fleq.c
+"4 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/fleq.c
 [v ___fleq __fleq `(b  1 e 0 0 ]
 {
 [v ___fleq@ff1 ff1 `d  1 p 4 0 ]
 [v ___fleq@ff2 ff2 `d  1 p 4 4 ]
 "12
 } 0
-"11 /opt/microchip/xc8/v2.05/pic/sources/c99/common/sprcdiv.c
+"11 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/sprcdiv.c
 [v ___fldiv __fldiv `(d  1 e 4 0 ]
 {
 "21
@@ -544,7 +564,7 @@
 [v ___fldiv@a a `d  1 p 4 55 ]
 "185
 } 0
-"7 /opt/microchip/xc8/v2.05/pic/sources/c99/common/awmod.c
+"7 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/awmod.c
 [v ___awmod __awmod `(i  1 e 2 0 ]
 {
 "10
@@ -555,7 +575,7 @@
 [v ___awmod@divisor divisor `i  1 p 2 2 ]
 "34
 } 0
-"7 /opt/microchip/xc8/v2.05/pic/sources/c99/common/awdiv.c
+"7 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/awdiv.c
 [v ___awdiv __awdiv `(i  1 e 2 0 ]
 {
 "10
@@ -568,7 +588,7 @@
 [v ___awdiv@divisor divisor `i  1 p 2 2 ]
 "41
 } 0
-"4 /opt/microchip/xc8/v2.05/pic/sources/c99/common/atoi.c
+"4 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/atoi.c
 [v _atoi atoi `(i  1 e 2 0 ]
 {
 "6
@@ -578,19 +598,19 @@
 [v atoi@s s `*.25Cuc  1 p 2 7 ]
 "16
 } 0
-"5 /opt/microchip/xc8/v2.05/pic/sources/c99/common/isspace.c
+"5 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/isspace.c
 [v _isspace isspace `(i  1 e 2 0 ]
 {
 [v isspace@c c `i  1 p 2 0 ]
 "8
 } 0
-"5 /opt/microchip/xc8/v2.05/pic/sources/c99/common/isdigit.c
+"5 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/isdigit.c
 [v _isdigit isdigit `(i  1 e 2 0 ]
 {
 [v isdigit@c c `i  1 p 2 0 ]
 "8
 } 0
-"15 /opt/microchip/xc8/v2.05/pic/sources/c99/common/Umul16.c
+"15 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/Umul16.c
 [v ___wmul __wmul `(ui  1 e 2 0 ]
 {
 "17
@@ -600,7 +620,7 @@
 [v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
 "53
 } 0
-"10 /opt/microchip/xc8/v2.05/pic/sources/c99/common/xxtofl.c
+"10 /Applications/microchip/xc8/v2.05/pic/sources/c99/common/xxtofl.c
 [v ___xxtofl __xxtofl `(d  1 e 4 0 ]
 {
 [v ___xxtofl@sign sign `uc  1 a 1 wreg ]
@@ -615,84 +635,84 @@
 [v ___xxtofl@sign sign `uc  1 a 1 8 ]
 "44
 } 0
-"204 /home/clyfee/Documents/Sistemas_medicao/display.X/main.c
+"228 /Users/clyffe/Public/Vatimetro-master/display.X/main.c
 [v _TIMER1_Start TIMER1_Start `(v  1 e 1 0 ]
 {
-"216
+"240
 } 0
-"158
+"181
 [v _LCD_String_xy LCD_String_xy `(v  1 e 1 0 ]
 {
 [v LCD_String_xy@row row `uc  1 a 1 wreg ]
-"160
+"183
 [v LCD_String_xy@location location `uc  1 a 1 14 ]
-"158
+"181
 [v LCD_String_xy@row row `uc  1 a 1 wreg ]
 [v LCD_String_xy@pos pos `uc  1 p 1 10 ]
 [v LCD_String_xy@msg msg `*.39Cuc  1 p 2 11 ]
 [v LCD_String_xy@row row `uc  1 a 1 13 ]
-"175
+"198
 } 0
-"149
+"172
 [v _LCD_String LCD_String `(v  1 e 1 0 ]
 {
 [v LCD_String@msg msg `*.39Cuc  1 p 2 8 ]
-"156
+"179
 } 0
-"135
+"158
 [v _LCD_Char LCD_Char `(v  1 e 1 0 ]
 {
 [v LCD_Char@dat dat `uc  1 a 1 wreg ]
 [v LCD_Char@dat dat `uc  1 a 1 wreg ]
-"137
+"160
 [v LCD_Char@dat dat `uc  1 a 1 7 ]
-"148
+"171
 } 0
-"106
+"129
 [v _LCD_Init LCD_Init `(v  1 e 1 0 ]
 {
-"117
+"140
 } 0
-"176
+"199
 [v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
 {
-"180
+"203
 } 0
-"119
+"142
 [v _LCD_Command LCD_Command `(v  1 e 1 0 ]
 {
 [v LCD_Command@cmd cmd `uc  1 a 1 wreg ]
 [v LCD_Command@cmd cmd `uc  1 a 1 wreg ]
-"121
+"144
 [v LCD_Command@cmd cmd `uc  1 a 1 7 ]
-"132
+"155
 } 0
-"188
+"211
 [v _MSdelay MSdelay `(v  1 e 1 0 ]
 {
-"190
+"213
 [v MSdelay@j j `ui  1 a 2 4 ]
 [v MSdelay@i i `ui  1 a 2 2 ]
-"188
+"211
 [v MSdelay@val val `ui  1 p 2 0 ]
-"193
+"216
 } 0
-"228
+"252
 [v _ADC_Read ADC_Read `(i  1 e 2 0 ]
 {
-"230
+"254
 [v ADC_Read@digital digital `i  1 a 2 6 ]
-"228
+"252
 [v ADC_Read@channel channel `i  1 p 2 0 ]
-"241
+"265
 } 0
-"218
+"242
 [v _ADC_Init ADC_Init `(v  1 e 1 0 ]
 {
-"226
+"250
 } 0
-"196
+"219
 [v _timer1_isr timer1_isr `IIH(v  1 e 1 0 ]
 {
-"202
+"226
 } 0

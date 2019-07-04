@@ -12,6 +12,7 @@
 #define LCD_Port TRISB  /*Define macros para o PORTB Direction Register*/
 #define PAR_ESCALE_CURRENT 0.2 /* Fator de escala corrente/tensao amperimetro */
 #define PAR_FILTER_CURRENT 0.5 /* Fator de atualização do valor da corrente */
+#define PAR_ESCALE_VOLTAGE 0.0227
 /*********************Prototipo de Funçoes*****************************/
 
 void MSdelay(unsigned int );                /*Gera delay em ms*/
@@ -32,11 +33,22 @@ int current_read;
 int voltage_read;
 int max_current = 0;
 int max_current_ant = 0;
-float current = 0; 
-float voltage = 0;
-char current_str[10];
-char voltage_str[10];
-unsigned int counter = 0x00;
+int max_voltage = 0;
+int max_voltage_ant = 0;
+unsigned long int time_current;
+unsigned long int time_voltage;
+float current = 0.; 
+float voltage = 0.;
+float power = 0.;
+float phase = 0;
+float phase_ant;
+char current_str[7];
+char voltage_str[7];
+char phase_str[7];
+char power_str[7];
+unsigned long int counter = 0x00;
+unsigned int counter2 = 0x00;
+
 
 
 int main(void)
@@ -49,37 +61,48 @@ int main(void)
     LCD_Clear();            /*Limpa LCD*/
 	while(1)                /*Loop Principal*/
     {
-        
-        //MSdelay(500);
-        //PORTCbits.RC0 = ~PORTCbits.RC0;
-        //MSdelay(500);
         current_read = ADC_Read(0);
-        
+        voltage_read = ADC_Read(1);
+                
         if (current_read > max_current)
         {
-            max_current = (max_current + current_read) / 2;
+            max_current = current_read;
+            time_current = counter;
         }
-        if (counter >= 500)
+        if (voltage_read > max_voltage)
+        {
+            max_voltage = voltage_read;
+            time_voltage = counter;
+        }
+                    
+        
+        
+        
+        if (counter2 >= 50000)
         {
             max_current = (PAR_FILTER_CURRENT * max_current_ant) + (1 - PAR_FILTER_CURRENT)*max_current;
             current = max_current * 5. / 1023. - 2.5;
             current =  current / ( PAR_ESCALE_CURRENT * sqrt(2));
-            if (current >= 10 || (current <0 && current >-10))
+            max_voltage = (PAR_FILTER_CURRENT * max_voltage_ant) + (1 - PAR_FILTER_CURRENT)*max_voltage;
+            voltage = max_voltage * 5. / 1023. - 2.5;
+            voltage =  voltage / ( PAR_ESCALE_VOLTAGE);
+            if (voltage > 0 && current > 0)
             {
-                sprintf(current_str, "I = %0.3f  A", current);
+                sprintf(voltage_str, "V=%0.1fV", voltage);
+                LCD_String_xy(1,1, voltage_str);
+                MSdelay(10);
+                sprintf(current_str, "I=%0.1fA", current);
+                LCD_String_xy(1,10, current_str);
+                MSdelay(10);
+                power = current * voltage;
+                sprintf(power_str, "P=%0.2f W", power);
+                LCD_String_xy(2,1, power_str);
             }
-            if (current <= -10)
-            {
-                sprintf(current_str, "I = %0.3f A", current);
-            }
-            if (current >= 0 && current <10)
-            {
-                sprintf(current_str, "I = %0.3f   A", current);
-            }
-            LCD_String_xy(2,1, current_str);
-            counter = 0;
             max_current_ant = max_current;
             max_current = 0;
+            max_voltage_ant = max_voltage;
+            max_voltage = 0;
+            
         }
         
         
@@ -196,7 +219,8 @@ void MSdelay(unsigned int val)
 void __interrupt() timer1_isr(void)
 {
     counter++;
-    TMR1=0xF856;
+    counter2++;
+    TMR1=0xfff6;
     
     PIR1bits.TMR1IF=0;  /* Make Timer1 Overflow Flag to '0' */
 }
@@ -211,7 +235,7 @@ void TIMER1_Start()
     /* Enable 16-bit TMR1 register,no pre-scale,internal clock, timer OFF */
     T1CON=0x80;		
 
-    TMR1=0xF856;	/* Load Count for generating delay of 1ms */
+    TMR1=0xfff6;	/* Load Count for generating delay of 1ms */
     TMR1ON=1;		/* Turn ON Timer1 */
 }
 
